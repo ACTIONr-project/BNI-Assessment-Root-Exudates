@@ -148,8 +148,8 @@ for (i in 1:nrow(as.matrix(summary(dataframe_list_REs)))) {
   inhibition_barplots[inhibition_plot_name] <- list(plot = inhibition_plot_temp)
 }
 
-# Let's see which dataframes are inside each list
-rownames(as.matrix(summary(inhibition_barplots)))
+# Let's see one inhibition barplot
+inhibition_barplots[37]
 ```
 
 Step 6: We will generate a .pdf file with all the plots
